@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Walsh Commercial Real Estate</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper light-blue darken-2">
+      <a onclick="show('#home')" class="brand-logo">
+        <i class="large material-icons">business</i>
+      </a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a onclick="show('#sales')">Sales & Leasing</a>
+        </li>
+        <li>
+          <a onclick="show('#representation')">Representation</a>
+        </li>
+        <li>
+          <a onclick="show('#investment')">Investments</a>
+        </li>
+        <li>
+          <a onclick="show('#services')">Services</a>
+        </li>
+        <li>
+          <a onclick="show('#contact')">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="content" id="home">
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="skyline.jpg">
+      </div>
+    </div>
+    <div class="container">
+    <h1>
+      Walsh Commercial Real Estate
+    </h1>
+    <p>
+      Walsh Commercial Real Estate is an independent, professional real estate company offering specialized services in the sale
+      and leasing of office, health care, medical-specialty offices, and retail real estate, including the brokerage of land
+      for development, quality investment property, and client-specific advisory services. Walsh Commercial Real Estate’s
+      primary geographic area of operation is the Philadelphia Metropolitan Area and the neighboring communities located
+      throughout southeast Pennsylvania. Our main office is strategically located in Horsham, Pennsylvania. Core Professional
+      Real Estate Services include:
+    </p>
+    <ul>
+      <li>Facility Sales and Leasing</li>
+      <li>Buyer/Tenant Representation</li>
+      <li>Investment Sales and Acquisitions</li>
+      <li>Advisory Services</li>
+    </ul>
+    <p>
+      Walsh Commercial Real Estate takes great pride in providing professional real estate services personalized to the needs and
+      objectives of each client. We look forward to the opportunity of working with you and satisfying your unique real estate
+      requirements.
+
+    </p>
+  </div>
+  </div>
+  <div class="content container" id="sales">
+    <h1>
+      Sales and Leasing
+    </h1>
+    <p>
+      Walsh Commercial Real Estate effectively markets office, health care, medical-specialty, retail, land for development, and
+      multi-family investment properties for sale and commercial lease using aggressive and targeted campaigns designed to
+      maximize value for our clients. Whether buying, selling, or leasing, a single transaction or a diverse property portfolio,
+      each Walsh Commercial Action Plan is customized to address the specific and unique needs of the client and implemented
+      to ensure that the real estate goals support the business objectives. Our business is maximizing value for our clients.
+      We take great pride in building long lasting, mutually beneficial, and rewarding relationships based on our real estate
+      expertise, honest straight forward communication, and commitment to exceptional customer service.
+    </p>
+  </div>
+  <div class="content container" id="representation">
+    <h1>Representation</h1>
+    <p>
+      Walsh Commercial Real Estate provides customized real estate representation services to purchasers and users of office, health
+      care, medical-specialty offices, retail, land for development, and multi-family properties. Every Buyer or Commercial
+      Tenant Representation Action Plan is designed to ensure that the client’s needs and objectives are satisfied to their
+      highest expectations. Walsh Commercial employs a client-centered, multi-step Action Plan to ensure that our client’s
+      business objectives are aligned with their real estate goals. Given the complexities of today’s business requirements
+      and the growing impact that real estate has on the bottom line, we aggressively evaluate all alternatives, so the final
+      lease, purchase, sale, or re-capitalization decisions result in reduced risk, reduced costs, maximized profitability,
+      and high client satisfaction. Additional customized Buyer/Tenant Representation services include Strategic Planning,
+      Transaction Management, and Real Estate Administration Services.
+    </p>
+    <h2>Strategic Planning:</h2>
+    <p>Assignment Analysis; Target Market(s) and Vocational Studies; Site Specific Demographic Analysis; Traffic Studies, Space
+      Planning with Facility Consultation, and Strategic Real Estate Plan Development and Implementation
+    </p>
+    <h2>Transaction Management Services:</h2>
+    <p>Site Selection, Real Estate Acquisitions, Real Estate Dispositions, Sale/Lease-back Packaging, and a variety of Financial
+      Structuring, including 1031 Exchange and Reverse Exchange Transactions.
+    </p>
+    <h2>Real Estate Administration Services:</h2>
+    <p>Lease Administration/Abstracts, Project Management, Property Management, and Due Diligence Investigations
+    </p>
+    </p>
+
+  </div>
+  <div class="content container" id="investment">
+    <h1>
+      Investments
+    </h1>
+    <p>
+      Walsh Commercial Real Estate is well positioned to represent real estate investors on local, regional, and national levels.
+      Knowledgeable in all commercial real estate types, including office, health care, medical-specialty retail, land for
+      development and multi-family properties, Walsh Commercial is committed to delivering superior real estate services
+      to investors looking to diversify or realign their real estate portfolio. Walsh Commercial maintains a proprietary
+      data base with up to date investment market information. When combined with detailed and accurate knowledge of the
+      marketplace and well established relationships throughout the real estate community, Walsh Commercial is ideally suited
+      to provide our clients with tremendous real estate investment opportunities. Our professionally prepared and customized
+      marketing campaigns are aggressively targeted to qualified investors best suited for the particular transaction. Our
+      upfront activities, including pricing recommendations and negotiation strategies, set the stage for a seamless transaction
+      from concept through closing.
+    </p>
+  </div>
+  <div class="content container" id="services">
+    <h1>Advisory Services</h1>
+    <p>
+      In addition to our real estate brokerage services, Walsh Commercial Real Estate provides a broad range of customized advisory
+      service to our clients including:
+    </p>
+    <ul>
+      <li>Property Assessment and Valuation</li>
+      <li>Due Dilligence</li>
+      <li>Land acquisition and Development Planning</li>
+      <li>Business and Economic Opportunity Programming</li>
+    </ul>
+  </div>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">Name</label>
+            </div>
+
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field col s12">
+              <input id="number" type="text" class="validate">
+              <label for="number">Phone Number</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Send</a>
+    </div>
+  </div>
+  <footer class="page-footer light-blue darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact Us</h5>
+          <p class="grey-text text-lighten-4">Together we can find the best solution for your real estate needs.</p>
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Let's Talk</a>
+        </div>
+        <div class="col l4 offset-l2 s12">
+
+          <ul>
+            <li>License Number: RB063516</li>
+            <li>3 Village Road, Suite 200-A</li>
+            <li>Horsham, PA 19044</li>
+            <li>Fax: 215.449.2443</li>
+            <li>bwalsh@walshcre.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2018 Copyright Walsh Commercial Real Estate
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript">
+
+    function show(id) {
+      $(".content").hide();
+      $(id).show();
+    }
+    $(document).ready(function () {
+      $(".content").hide();
+      $("#home").show();
+      // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+      $('.modal').modal();
+      $('.parallax').parallax();
+    });
+  </script>
+</body>
+
+</html>
